@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /app/
+Disallow: /views/
+Disallow: /database/
+Disallow: /scripts/
+Disallow: /src/
+
+Sitemap: /sitemap.xml

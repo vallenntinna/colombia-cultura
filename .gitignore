@@ -1,0 +1,26 @@
+# Dependencias
+/node_modules/
+/vendor/
+
+# Base de datos generada (se recrea con scripts/init_db.php)
+/database/*.sqlite
+/database/*.sqlite-journal
+/database/*.db
+
+# Entorno y sistema
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+
+# Temporales
+/tmp/
+*.tmp

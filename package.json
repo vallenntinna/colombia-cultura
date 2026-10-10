@@ -1,0 +1,14 @@
+{
+  "name": "colombia-cultura",
+  "version": "1.0.0",
+  "description": "Sitio web sobre la cultura de Colombia - PHP + SQLite + Tailwind CSS",
+  "private": true,
+  "scripts": {
+    "dev": "tailwindcss -i ./src/css/input.css -o ./assets/css/styles.css --watch",
+    "build": "tailwindcss -i ./src/css/input.css -o ./assets/css/styles.css --minify",
+    "db:init": "php scripts/init_db.php"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
